@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="eh.css">
+        <script src="eh.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js">
+        </script>
+    </head>
+    <body>
+        <div class="div-tag" id="1">DIV-1
+            <div class="div-tag" id="2">DIV-2
+                <div class="div-tag" id="3">DIV-3
+                </div>
+            </div>
+        </div>
+        <form>
+            <p>Enter a number between 18 and 99:</p>
+<input type="text" name="age" size=3 onChange="validate(this, 18, 99);">
+        </form>
+    </body>
+</html>

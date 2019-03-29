@@ -1,0 +1,106 @@
+h1{
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.heading{
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px dashed red;
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+
+body{
+    background-image: url("bricks-brickwall-brickwork-1092364.jpg"); 
+}
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    padding: 10px;
+    width: 440px;
+    height: 400px;
+    transform: translateX(60%);
+    float:left;
+    border: 3px rgb(0, 100, 0) double;
+    opacity:0.8;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border:  solid 2px transparent;
+    padding: 22px;
+    font-size: 30px;
+    text-align: center;
+    margin:5px;
+    flex-basis: 20%;
+  }
+
+  .result{
+      border: 2px solid black;
+      transform: translateX(130%);
+      width: 300px;
+      padding: 10px;
+      height: 100px;
+      background-color: aliceblue;
+      align-self: auto;
+      opacity:0.8;
+  }
+
+  input[type="button"]{
+    transform: translateX(400px);
+    background-color: tomato; 
+    border-radius: 15px;
+    border: 2px transparent black;
+    height: 80px;
+    outline: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    float: right;
+    width: 200px;
+    margin: 50px;
+    opacity:0.8;
+  }
+
+  input[type="button"]:hover{
+    border: 2px solid black;
+  }
+  .main{
+      height:500px;
+      width:800px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .result-container{
+    float: right;
+  }
+
+  [role="button"]:active, [role="button"]:hover{
+    border: solid 2px black;
+    }
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding: 4px;
+    border: 2px solid black;
+    flex-basis: 30%;
+}
+
+.nav-item{
+    padding: 10px;    
+}
+
+[role="item"]:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+div.nav-item[aria-disabled="true"]{
+    color: white;
+}

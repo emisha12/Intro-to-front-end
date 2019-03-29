@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            login
+        </title>
+        <script src="login.js"></script>
+        <link rel="stylesheet" href="login css.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+        <div id="div-1">
+            <form  method="POST" >   
+                <fieldset>
+                    <legend>Login</legend>
+
+                            <div style="margin: 10px; align-items: center">
+                                <label style="margin-right:30px" for="name">Enter Username:</label>
+                                <input type="text" id="nameText" name="text-1" placeholder="Enter Username"  required></div>
+                                <br>
+                                <div style="margin: 10px">
+                                    <label  style="margin-right:3px" for="pwd">Enter password:</label>
+                                    <input type="password" id="passText" name="text-2" placeholder="Enter password" required></div>
+                                <div style="display: inline-block;width:140px; padding-left:50px;padding-right:30px;box-sizing: border-box" >
+                                <button type="button" class="btn btn-success" onclick = "validate()">Login</button></div>
+                                <div style="display: inline-block;width:140px; padding:50px;box-sizing: border-box">
+                                <button type="reset" class="btn btn-success" onclick="clear()">Clear</button></div>
+                                <div style="display: inline-block;width:140px; padding-left:30px;padding-right:50px;box-sizing: border-box" >
+                                <button type="button" class="btn btn-success" onclick="window.location.href='simple form.html'">Back</button></div>
+                    </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
